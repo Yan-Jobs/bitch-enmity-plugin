@@ -33,8 +33,21 @@ const Bitches: Plugin = {
           "https://dating.com",
           "https://letmedate.com",
         ];
+        const embed = {
+          type: "rich",
+          title: "NO BITCHES?",
+          image: {
+            proxy_url: "https://i.imgflip.com/6x72vy.jpg",
+            url: "https://i.imgflip.com/6x72vy.jpg",
+            width: 500,
+            height: 544
+          },
+          footer: {
+            text: "NO BITCHES?"
+          }
+        };
         if (Math.floor(Math.random() * 2) === 1) {
-          sendReply(channelId, "https://i.imgflip.com/6x72vy.jpg");
+          sendReply(channelId, {embeds: [embed]});
         } else {
           sendReply(
             channelId,
