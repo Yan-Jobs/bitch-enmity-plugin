@@ -52,8 +52,7 @@ const Bitches: Plugin = {
           sendReply(
             channelId,
             "Click here to get bitches: " +
-              datingLinks[Math.floor(Math.random() * datingLinks.length)], "Mega
-              mind", "https://i.imgflip.com/6x7kod.jpg"
+              datingLinks[Math.floor(Math.random() * datingLinks.length)], "Megamind", "https://i.imgflip.com/6x7kod.jpg"
           );
         }
       },
