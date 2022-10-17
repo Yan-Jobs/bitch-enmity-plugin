@@ -37,8 +37,8 @@ const Bitches: Plugin = {
           type: "rich",
           title: "NO BITCHES?",
           image: {
-            proxy_url: "https://i.e-z.host/rhye5w6v.jpeg",
-            url: "https://i.e-z.host/rhye5w6v.jpeg",
+            proxy_url: "https://i.imgflip.com/6x7txa.jpg",
+            url: "https://i.imgflip.com/6x7txa.jpg",
             width: 500,
             height: 544
           },
@@ -52,7 +52,7 @@ const Bitches: Plugin = {
           sendReply(
             channelId,
             "Click here to get bitches: " +
-              datingLinks[Math.floor(Math.random() * datingLinks.length)], "Megamind", "https://i.e-z.host/2enju4ov.jpeg"
+              datingLinks[Math.floor(Math.random() * datingLinks.length)], "Megamind", "https://i.imgflip.com/64sz4u.png"
           );
         }
       },
