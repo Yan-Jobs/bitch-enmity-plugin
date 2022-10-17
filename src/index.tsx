@@ -37,8 +37,8 @@ const Bitches: Plugin = {
           type: "rich",
           title: "NO BITCHES?",
           image: {
-            proxy_url: "https://i.imgflip.com/6x72vy.jpg",
-            url: "https://i.imgflip.com/6x72vy.jpg",
+            proxy_url: "https://i.e-z.host/rhye5w6v.jpeg",
+            url: "https://i.e-z.host/rhye5w6v.jpeg",
             width: 500,
             height: 544
           },
@@ -47,12 +47,12 @@ const Bitches: Plugin = {
           }
         };
         if (Math.floor(Math.random() * 2) === 1) {
-          sendReply(channelId, {embeds: [embed]});
+          sendReply(channelId, {embeds: [embed]}, "Megamind", "https://i.e-z.host/2enju4ov.jpeg");
         } else {
           sendReply(
             channelId,
             "Click here to get bitches: " +
-              datingLinks[Math.floor(Math.random() * datingLinks.length)], "Megamind", "https://i.imgflip.com/6x7kod.jpg"
+              datingLinks[Math.floor(Math.random() * datingLinks.length)], "Megamind", "https://i.e-z.host/2enju4ov.jpeg"
           );
         }
       },
